@@ -1,0 +1,64 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+} 
+
+.sidebar-link {
+  height: 74px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+}
+
+.tooltip-long {
+ margin-left: 20px;
+}
+
+.sidebar-link .tooltip,
+.sidebar-link .tooltip-long {
+  font-family: Roboto, Arial;
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -32px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 300;
+}
+
+.sidebar-link:hover .tooltip,
+.sidebar-link:hover .tooltip-long  {
+ opacity: 1;
+}
+
+
+.sidebar-link:hover {
+background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-size: 10px;
+
+}

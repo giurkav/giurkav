@@ -1,0 +1,39 @@
+p {
+  font-family: Roboto;
+}
+.tutorial-title {
+font-size: 30px;
+font-weight: bold;
+font-style: italic;
+text-align: center;
+line-height: 24px;
+}
+
+.tutorial-body {
+font-size: 14px;
+color: black;
+margin-bottom: 100;
+
+
+}
+
+.apple-text {
+margin-bottom: 50px; 
+font-size: 14px;
+background-color: rgba(227, 65, 64);
+color: white;
+text-align: center;
+padding-top: 18px;
+padding-bottom: 18px;
+
+}
+
+.span-style {
+cursor: pointer;
+margin-left: 5px;
+
+}
+
+.span-style:hover {
+text-decoration: underline;
+}
